@@ -1,6 +1,8 @@
 void main() {
-    int number; // Deklaration
-    number = 777;   // Initialisierung
+    int number; // Deklaration: Namen und Datentyp der Variable festlegen
+    number = 777;   // Initialisierung mithilfe des Zuweisungsoperators
+    //IO.println(number);
+    number = 3;
     IO.println(number);
 
     float floatingNumber = 17.5f;   // Deklaration & Initialisierung
@@ -17,6 +19,21 @@ void main() {
 
     double doubleNumber = 1.53465754;
     IO.println(doubleNumber);
+
+    char cheese;    //Variable deklariert
+    cheese = 'x';   // initialisiert
+    IO.println(cheese);
+
+    char pizza = 'P';
+    IO.println(pizza);
+
+    boolean isRainy;
+    isRainy = false;
+    IO.println(isRainy);
+    isRainy = true;
+    IO.println(isRainy);
+    isRainy = false;
+    IO.println(isRainy);
 
     //println = print line
     IO.println("2362 und 2462 sind eine tolle Gruppe!");
