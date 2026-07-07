@@ -41,4 +41,33 @@ void main() {
     for (int i = 1; i <= 5; i++) {
         IO.println("i = " + i);
     }
+
+    double result = 2 + 1.2;
+    IO.println(result);
+
+    int a = 3;
+    int b = 5;
+    int c = a * b - 2; // Wert?
+    //          5 / 3
+    int d = b / a; // Wert 1
+    int e = c; // Wert?
+
+//      3 + 1
+    a = a + 1; // Wert 4
+
+
+    IO.println("c ist " + c);   //Konkatenieren
+
+    IO.println(a + d);  // 4 + 1 = 5
+    IO.println("" + a + d); // 41
+    IO.println("" + (a + d)); // 5
+
+    IO.println("e ist " + e);
+    IO.println("a ist " + a);
+
+    boolean greater = 8 > 7;
+    IO.println(greater);    // Wert: true
+    boolean equal = 8 == 7;
+    IO.println(equal);  // Wert: false
+
 }
